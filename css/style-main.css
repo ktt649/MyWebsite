@@ -1,0 +1,124 @@
+.port-img{
+  height: 172px;
+  width: 403px;
+}
+
+.modal{
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 62%;
+    position: relative;
+    margin-bottom: 5%;
+   /* width: 161%;
+     margin-left: -21%;
+    -ms-zoom: 0.8;
+    -moz-transform: scale(0.9);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.9);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.9);
+    -webkit-transform-origin: 0 0;
+    */
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+/*
+iframe{
+	height: 700px;
+    width: 157% !important;
+    max-width: 200%;
+    -ms-zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+*/
+
+.fa-phone:before{
+	font-family: "Font Awesome 5 Free";
+   	content: "\f095";
+   	font-weight: 900;
+}
+
+
+.btn-outline-modal{
+	color: rgb(88, 128, 48)!important;
+    background-color: transparent;
+    border-color: rgb(88, 128, 48)!important;
+    border-radius: .3rem;
+    margin-bottom: .3rem;
+}
+
+.btn-outline-modal:hover{
+	color: white!important;
+    background-color: rgb(88, 128, 48)!important;
+    border-color: white!important;
+    border-radius: .3rem;
+}
+
+
+
+.bg-photo{
+	background-image: url("../img/field.png");
+	/* Full height */
+  	height: 100%; 
+
+  	/* Center and scale the image nicely */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+header{
+	height: 100%;
+}
+
+nav {
+	height: 8%;
+}
+
+.head-center-text{
+	padding-bottom: 20rem;
+}
+
+.github-logo:before{
+	content: "\f092";
+}
+
+.contact-info{
+	display: inline;
+}
+
+.m-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.port-left-col{
+	margin-right: 0 !important;
+	margin-left: auto !important;
+}
+
+.port-right-col{
+	margin-left: 0 !important;
+	margin-right: auto !important;
+}
+
+#contact{
+	padding-bottom: 0;
+}
